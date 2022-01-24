@@ -1,4 +1,30 @@
-/* pricing */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* events */
+
+.icon-style {
+    font-size: 41px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5%;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.event-card {
+    width: 400px;
+}
+
+.card-bg {
+    background: linear-gradient(135deg, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+}
+
+
+/* price */
 
 .pricing hr {
     margin: 1.5rem 0;
@@ -18,11 +44,15 @@
     color: #231D4F;
 }
 
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
 .pricing .text-muted {
     opacity: 0.8;
 }
 
-.pricing .price-btn {
+.pricing .tier-btn {
     background-color: #3F87F5;
     color: #fdfdfd;
     padding: 10px 20px;
@@ -42,55 +72,6 @@
     background: #FFFFFF;
     border-radius: 24px;
     color: #3F87F5;
-}
-
-
-/* testimonials */
-
-.testimonial-inner {
-    position: relative;
-}
-
-.testimonial-pos {
-    position: relative;
-    top: 24px
-}
-
-.testimonial-inner .testimonial-desc {
-    border-radius: 5px;
-    padding: 40px
-}
-
-.color-grey-3 {
-    font-size: 14px;
-    color: #6c83a2
-}
-
-.testimonial-inner img.tm-people {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    object-fit: cover;
-    max-width: none
-}
-
-.clients-name {
-    font-size: 14px;
-    color: #6c83a2
-}
-
-.link-position {
-    font-size: 12px;
-    color: #6c83a2
-}
-
-
-/* testimonial */
-
-.testimonial-card {
-    background: #FFFFFF;
-    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
-    border-radius: 5px;
 }
 
 
