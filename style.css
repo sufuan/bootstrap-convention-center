@@ -85,6 +85,15 @@
 }
 
 
+/* testimonial */
+
+.testimonial-card {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+}
+
+
 /* faq */
 
 .accordion-button {
@@ -127,10 +136,4 @@
 
 .accordion-collapse.show {
     border-bottom: 1px solid #ddd !important
-}
-
-.noti {
-    position: absolute;
-    top: 0;
-    right: 0;
 }
