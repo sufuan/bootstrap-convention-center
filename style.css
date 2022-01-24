@@ -18,15 +18,11 @@
     color: #231D4F;
 }
 
-.pricing ul li {
-    margin-bottom: 1rem;
-}
-
 .pricing .text-muted {
     opacity: 0.8;
 }
 
-.pricing .tier-btn {
+.pricing .price-btn {
     background-color: #3F87F5;
     color: #fdfdfd;
     padding: 10px 20px;
@@ -46,6 +42,46 @@
     background: #FFFFFF;
     border-radius: 24px;
     color: #3F87F5;
+}
+
+
+/* testimonials */
+
+.testimonial-inner {
+    position: relative;
+}
+
+.testimonial-pos {
+    position: relative;
+    top: 24px
+}
+
+.testimonial-inner .testimonial-desc {
+    border-radius: 5px;
+    padding: 40px
+}
+
+.color-grey-3 {
+    font-size: 14px;
+    color: #6c83a2
+}
+
+.testimonial-inner img.tm-people {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    max-width: none
+}
+
+.clients-name {
+    font-size: 14px;
+    color: #6c83a2
+}
+
+.link-position {
+    font-size: 12px;
+    color: #6c83a2
 }
 
 
@@ -91,4 +127,10 @@
 
 .accordion-collapse.show {
     border-bottom: 1px solid #ddd !important
+}
+
+.noti {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
